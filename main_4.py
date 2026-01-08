@@ -20,14 +20,33 @@
 #     print("Делить на ноль нельзя")
 
 
-def get_user_age(user):
+# def get_user_age(user):
+#     try:
+#         return user['age']
+#     except KeyError:
+#         return None
+
+# user1 = {'name': 'Ivan', 'age': 30}
+# user2 = {'name': 'Anna'}
+
+# print(get_user_age(user1))  
+# print(get_user_age(user2))  
+
+# def safe_divide(a,b):
+#     try:
+#         return a / b
+#     except ZeroDivisionError:
+#         return "Деление на ноль"
+
+# def get_age(user):
+#     try:
+#         return user['age']
+#     except KeyError:
+#         return "Возраст не указан"
+
+
+def is_adult(user):
     try:
-        return user['age']
+        return user("age")
     except KeyError:
-        return None
-
-user1 = {'name': 'Ivan', 'age': 30}
-user2 = {'name': 'Anna'}
-
-print(get_user_age(user1))  # 30
-print(get_user_age(user2))  # None
+        return "Возраст не указан"
