@@ -192,13 +192,13 @@
 # print(user["name"])
 # print(user["email"])
 
-users = [
+# users = [
 
-    {'name': 'Alex', 'age': 17},
-    {'name': 'Maria', 'age': 22},
-    {'name': 'Ivan',   'age': 30}
-]
+#     {'name': 'Alex', 'age': 17},
+#     {'name': 'Maria', 'age': 22},
+#     {'name': 'Ivan',   'age': 30}
+# ]
 
-for user in users:
-    if user['age'] > 18:
-        print(user['name'])
+# for user in users:                              # берём одного пользователя
+#     if user['age'] > 18:                        # смотрим его возраст
+#         print(user['name'])                     # выводим имя

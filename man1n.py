@@ -48,14 +48,14 @@
 
 # print(get_even_numbers([10,3,2,16,4,7,8]))
 
-def get_user_names(users):
-    user_names = []
+# def get_user_names(users):
+#     user_names = []
 
-    for user in users:
-        if user['age'] >= 18:
-            user_names.append(user["name"])
+#     for user in users:
+#         if user['age'] >= 18:
+#             user_names.append(user["name"])
 
-    return user_names
+#     return user_names
 
-print(get_user_names([{"name": "Alex", "age": 17}]))
-print(get_user_names([{"name": "Maria", "age": 22}]))
+# print(get_user_names([{"name": "Alex", "age": 17}]))
+# print(get_user_names([{"name": "Maria", "age": 22}]))
